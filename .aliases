@@ -9,6 +9,7 @@ alias .....="cd ../../../.."
 alias mvnci="mvn clean install"
 alias mvnct="mvn clean test"
 alias mvnt="mvn clean test"
+alias mvnft="mvn -e -B verify"
 
 alias mvnfmt="mvn -e -B com.coveo:fmt-maven-plugin:format && mvn -e -B com.github.ekryd.sortpom:sortpom-maven-plugin:sort"
 
