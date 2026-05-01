@@ -11,3 +11,5 @@ done
 
 # Source the aliases in the current subshell
 [ -f ~/.aliases ] && . ~/.aliases
+
+ln -sf "$PWD/functions.sh" ~/.functions.sh
